@@ -1,0 +1,19 @@
+{
+  "name": "aatico",
+  "type": "module",
+  "collaborators": [
+    "afonsomiguel <afonso.miguel@gmail.com>"
+  ],
+  "description": "Aatico - Agregador de Atividades Complementares - Sistema WebAssembly para agregação de certificados de atividades complementares",
+  "version": "2.0.0",
+  "files": [
+    "aatico_bg.wasm",
+    "aatico.js",
+    "aatico.d.ts"
+  ],
+  "main": "aatico.js",
+  "types": "aatico.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
